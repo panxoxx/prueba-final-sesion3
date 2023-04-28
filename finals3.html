@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>final drilling s3</title>
+  <link rel="stylesheet" href="assets/css/stule.css">
+</head>
+
+<body class="fondo">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/assets/img/icono.jpeg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pagina Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Preguntas Frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Manuales y tutoriales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Calendario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CHAT</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="ID Usuario" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECTION -->
+
+
+  <div class="container bg-body-tertiary mt-4">
+    <div class="d-flex flex-column flex-md-row  ">
+
+      <!--panel izquierdo-->
+
+      <div class="col-12  d-block d-md-none">
+        <button id="btn_conv">conversacion</button>
+      </div>
+      <div id="panel_izq" class="col-12  col-md-4 bg-warning m-3 panel_izquierdo d-none d-md-block">
+        <div class="usuario">
+          <div class="usuario_image">
+            <img src="/assets/img/1.jpg">
+            <i class="fa-solid fa-circle" style="color: #1dd51a;"></i>
+          </div>
+          <div class="usuario_nombre">
+            <p>PAMELA <span> 26/04/2023 </span></p>
+          </div>
+        </div>
+
+        <div class="usuario">
+          <div class="usuario_image">
+            <img src="/assets/img/6.jpeg">
+            <i class="fa-solid fa-circle" style="color: #878787;"></i>
+          </div>
+          <div class="usuario_nombre">
+            <p>CAROLINA <span> 26/04/2023</span></p>
+          </div>
+        </div>
+
+        <div class="usuario">
+          <div class="usuario_image">
+            <img src="assets/img/3.jpg">
+            <i class="fa-solid fa-circle" style="color: #878787;"></i>
+          </div>
+          <div class="usuario_nombre">
+            <p>DIEGO <span> 26/04/2023</span></p>
+          </div>
+        </div>
+
+        <div class="usuario">
+          <div class="usuario_image">
+            <img src="assets/img/4.jpg">
+            <i class="fa-solid fa-circle" style="color: #1dd51a;"></i>
+          </div>
+          <div class="usuario_nombre">
+            <p>JUAN <span> 26/04/2023</span></p>
+          </div>
+        </div>
+
+        <div class="usuario">
+          <div class="usuario_image">
+            <img src="assets/img/5.jpg">
+            <i class="fa-solid fa-circle" style="color: #878787;"></i>
+          </div>
+          <div class="usuario_nombre">
+            <p>PABLO <span> 26/04/2023</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--panel derecho-->
+
+      <div class="col-12 col-md-7 m-3 bg-warning panel_derecho ">
+        <div class="chat">
+          <div class="chat_activo">
+             <div class="burbuja_foto_activo">
+              <img src="/assets/img/1.jpg">              
+            </div>
+            <p>Pamela fgoiogig</p>
+          </div>
+          <div class="p-3">
+            <div class="burbuja_izq">
+              <div class="burbuja_foto">
+                <img src="/assets/img/1.jpg">
+                <p>Pamela</p>
+              </div>
+              <div class="burbuja_texto_izq">
+                <p> hola como estas?</p>
+              </div>
+              <div class="burbuja_hora">
+                <span>07:00</span>
+                <i class="fa-solid fa-circle-check fa-xs"></i>
+              </div>
+            </div>
+
+            <div class="burbuja_dere">
+              <div class="burbuja_hora">
+                <span>07:00</span>
+                <i class="fa-solid fa-circle-check fa-xs"></i>
+              </div>
+              <div class="burbuja_texto_der">
+                <p> bien y tu </p>
+              </div>
+              <div class="burbuja_foto">
+                <img src="/assets/img/4.jpg">
+                <p>Juan</p>
+              </div>
+            </div>
+
+            <div class="burbuja_izq">
+              <div class="burbuja_foto">
+                <img src="/assets/img/1.jpg">
+                <p>Pamela</p>
+              </div>
+              <div class="burbuja_texto_izq">
+                <p>bien aqui haciendo el drilling</p>
+              </div>
+              <div class="burbuja_hora">
+                <span>07:00</span>
+                <i class="fa-solid fa-circle-check fa-xs"></i>
+              </div>
+            </div>
+
+            <div class="burbuja_dere">
+              <div class="burbuja_hora">
+                <span>07:00</span>
+                <i class="fa-solid fa-circle-check fa-xs"></i>
+              </div>
+              <div class="burbuja_texto_der">
+                <p> yo tb </p>
+              </div>
+              <div class="burbuja_foto">
+                <img src="/assets/img/4.jpg">
+                <p>Juan</p>
+              </div>
+            </div>
+
+            <div class="chat_input pt-5 mt-5">
+              <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary dropdown-toggle btn-primary" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-paperclip"></i></button>
+                <ul class="dropdown-menu dropup">
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-video fa-sm"></i> Video</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-regular fa-image fa-sm"></i> Imagen</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file fa-sm"></i> Documento</a></li>
+                </ul>
+                <input type="text" placeholder="Ingrese texto" class="form-control"
+                  aria-label="Text input with dropdown button">
+                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i></button>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/2dd55a8226.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap5.3/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js%22"></script>
+    <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>

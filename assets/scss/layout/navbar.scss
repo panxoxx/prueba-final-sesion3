@@ -1,0 +1,16 @@
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+
+  }
+
+  .navbar-nav li {
+    font-weight: bold;
+  }
+
+  .navbar-nav li:not(:last-child) {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-right: 10px;
+  }

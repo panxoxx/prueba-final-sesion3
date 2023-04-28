@@ -1,0 +1,182 @@
+
+.izquierdo {
+
+    height: 120rem;
+}
+
+.fondo{
+    
+    background-color: black;
+    width:100%;
+   
+}
+
+.usuario{
+   
+    padding: 20px 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.usuario_image{
+    
+    width: 50px;
+    height: 50px;
+    position: relative;
+ 
+
+ & img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+ & i{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: green;
+    font-size: 14px;
+ }
+
+}
+
+.usuario_nombre{
+    
+    & span{
+        font-size: 10px;
+        color:black;
+        font-weight: 400;
+       
+    }
+}
+
+.burbuja_izq{
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    
+}
+
+.burbuja_foto{
+    width: 50px;
+    height: 50px;
+   
+
+    & img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    & p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.burbuja_foto_activo{
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+    
+  
+
+    & img{
+        width: 100%;
+        border-radius:50%;
+        margin-top:15px;
+        margin-left: 35px;
+              
+        
+    }
+
+    
+
+}
+
+.burbuja_texto_izq{
+
+    background-color: aqua;
+    flex-basis: 60%;
+    min-height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.burbuja_texto_der{
+
+    background-color: greenyellow;
+    flex-basis: 60%;
+    min-height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.burbuja_hora{
+
+  font-size: 10px; 
+}
+
+.burbuja_dere{
+
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.chat_input{
+
+    align-items: flex-end;
+}
+
+
+.chat_activo{
+    
+    width: 100%;
+    height:60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+
+    & p{
+
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 15px;
+        height:50px;
+        width: 300px;
+        flex-grow: 1;
+      
+    }
+    
+
+}
+
+.panel_izquierdo{
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+.panel_derecho{
+    border-radius: 10px;
+}
+
+.texto{
+    width: 100%;
+    height: 40px;
+}
